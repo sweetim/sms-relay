@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SMSRelay</string>
+    <string name="forward_endpoint_url">https://us-central1-timxlab.cloudfunctions.net/entry</string>
+</resources>
