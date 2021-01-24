@@ -1,6 +1,5 @@
 package com.github.sweetim.volley_request;
 
-import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
 import com.android.volley.ParseError;
 import com.android.volley.Request;
@@ -46,7 +45,7 @@ public class GsonRequest<T> extends Request<T> {
     }
 
     @Override
-    public byte[] getBody() throws AuthFailureError {
+    public byte[] getBody() {
         return gson.toJson(data).getBytes();
     }
 
