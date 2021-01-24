@@ -8,6 +8,7 @@ public class EntryResultModel {
     @SerializedName("result")
     public String result;
 
+    @Override
     public String toString() {
         return String.format("[%b] %s", ok, result);
     }
